@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="textPersonName" 
+        android:inputType="textEmailAddress" 
         android:hint="@string/usernameHint">
 
         <requestFocus />
@@ -34,7 +34,7 @@
     <TextView
         android:id="@+id/textView1"
         android:clickable="true"
-        android:onClick=""
+        android:onClick="goRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/button1"

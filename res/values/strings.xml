@@ -10,7 +10,11 @@
     <string name="alrmPgHeadString">ALARM</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="login">Login</string>
-    <string name="usernameHint">Username</string>
-    <string name="register">Create an account</string>
+    <string name="usernameHint">Email</string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="lastname">Last Name</string>
+    <string name="firstname">First Name</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
