@@ -8,57 +8,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <Spinner
-        android:id="@+id/freqSpinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/setAlrmBtn"
-        android:layout_alignLeft="@+id/freqSpinnerLabel"
-        android:layout_marginBottom="21dp" />
-
-    <Button
-        android:id="@+id/setAlrmBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/freqSpinner"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="36dp"
-        android:text="@string/setAlrmBtnString"
-        android:onClick="setAlarm" />
-
     <TextView
-        android:id="@+id/freqSpinnerLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/freqSpinner"
-        android:layout_alignLeft="@+id/timePicker1"
-        android:text="@string/freqSpinnerString" />
-
-    <TimePicker
-        android:id="@+id/timePicker1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/freqSpinnerLabel"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="14dp" />
-
-    <TextView
-        android:id="@+id/setTimeLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/timePicker1"
-        android:layout_alignLeft="@+id/timePicker1"
-        android:layout_marginBottom="16dp"
-        android:text="@string/setTimeString" />
-
-    <TextView
-        android:id="@+id/alrmPgHead"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/setTimeLabel"
-        android:text="@string/alrmPgHeadString"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="13"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-		
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="26dp"
+        android:text="Streak Started" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:text="1/1/2014" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:text="Done reading for the day" />
+   
 </RelativeLayout>

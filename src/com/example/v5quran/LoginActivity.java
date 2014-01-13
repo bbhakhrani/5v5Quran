@@ -26,4 +26,8 @@ public class LoginActivity extends Activity {
 		startActivity(registerPage);
 		
 	}
+	public void login(View v){
+		Intent mainPage = new Intent(this, MainActivity.class);
+		startActivity(mainPage);
+	}
 }
