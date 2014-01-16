@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
 	}
 	
 	public String setUserData(int id){
-		String data;
+		String data = "";
 		Integer[] input = new Integer[1];
 		input[0] = id;
 		GetUserInfo getData = new GetUserInfo();
