@@ -11,7 +11,7 @@
    
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/fname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
@@ -24,26 +24,13 @@
     
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/lname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editText1"
-        android:layout_below="@+id/editText1"
+        android:layout_alignRight="@+id/fname"
+        android:layout_below="@+id/fname"
         android:ems="10"
         android:hint="@string/lastname" />
-
-   
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_below="@+id/editText2"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="@string/usernameHint"
-        android:inputType="textEmailAddress" />
 
     <Button
         android:id="@+id/button1"
@@ -63,5 +50,16 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="29dp"
         android:text="@string/cancel" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lname"
+        android:layout_below="@+id/lname"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/usernameHint"
+        android:inputType="textEmailAddress" />
 
 </RelativeLayout>
